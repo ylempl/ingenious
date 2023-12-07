@@ -1,3 +1,5 @@
+![Local Image](./img/preview.png)
+
 # Bus stops interview task
 Your have to implement simple board for bus stops. Directory `docs` contains `openapi` specification for the `api` response - feel free to play with that to check how api was implemented. <strong>Don't install any other library</strong>
 
