@@ -1,0 +1,62 @@
+@import './_variables.scss';
+@media (max-width: 850px) {
+}
+
+main {
+	display: grid;
+	color: var(--primary-text);
+	grid-template-columns: 1fr;
+	grid-template-rows: 60px 60px 216px 1fr;
+	background-color: var(--default-background-color);
+	height: 100vh;
+	padding: 40px 32px;
+
+	.round {
+		border-radius: var(--round);
+	}
+
+	.title {
+		color: var(--outside-primary-text);
+		margin-bottom: var(--gap-24);
+	}
+
+	.subtitle {
+		margin-bottom: var(--gap-40);
+	}
+
+	.table-title {
+		margin-bottom: var(--gap-24);
+	}
+}
+
+nav {
+	background-color: var(--white);
+	display: flex;
+	align-items: center;
+	padding: 0 var(--gap-24);
+
+	.link {
+		color: var(--grey-out-text);
+		text-decoration: none;
+		padding: 17px var(--gap-24);
+		border-bottom: 2px solid transparent;
+		transition: border-bottom 0.2s linear;
+	}
+	.active-link {
+		color: var(--primary-text);
+		border-bottom: 2px solid var(--blue);
+	}
+}
+
+section {
+	background-color: var(--white);
+	margin-top: var(--gap-16);
+	padding: var(--gap-24);
+	border-radius: var(--round);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: var(--gap-16);
+}
